@@ -27,7 +27,7 @@ body {
     text-align: center;
     align-items: center;
     gap: 20px;
-    max-width: 500px;
+    max-width: 600px;
     padding: 80px 20px;
     background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
     backdrop-filter: blur(10px); /* Aplica el efecto blur */
@@ -59,13 +59,13 @@ body {
 /* Fondo para pantallas grandes (desktop) */
 @media (min-width: 1024px) {
     body {
-        background-image: url('../san-valentin-proyecto/img/machu-picchu.jpeg'); /* Reemplaza con tu imagen */
+        background-image: url('../img/machu-picchu.jpeg'); /* Reemplaza con tu imagen */
     }
 }
 
 /* Fondo para pantallas pequeñas (móviles) */
 @media (max-width: 1023px) {
     body {
-        background-image: url('../san-valentin-proyecto/img/love.jpeg'); /* Reemplaza con tu imagen */
+        background-image: url('../img/love.jpeg'); /* Reemplaza con tu imagen */
     }
 }
